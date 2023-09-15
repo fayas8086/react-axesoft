@@ -1,0 +1,27 @@
+import React from 'react'
+import './Sup.css';
+function Suport() {
+  return (
+    <div className='support'>
+    <h4 className='sup' style={{fontWeight:'bold'}}>We Supoort</h4>
+    <div className='main-circle'>
+    <div className='circle'>
+        
+        </div>
+    </div>
+    <h4 className='sup'  style={{fontSize:'25px'}}>Preservation of Cultural architectural structures</h4>
+    <div className='main-circle'>
+    <div className='circle'>
+        
+        </div>
+    </div>
+    <h4 className='sup' style={{fontSize:'25px'}}>Tree Conservation</h4>
+   
+
+    
+  
+</div>
+  )
+}
+
+export default Suport

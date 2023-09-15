@@ -1,0 +1,38 @@
+.sup{
+    text-align: center;
+    margin-top: 30px;
+    font-size: xx-large;
+}
+.main-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.circle{
+  
+       width: 100px;
+    height: 100px;
+    border-radius: 8rem;
+    background-color: rgb(202,196,196);
+    
+}
+
+  
+  .circle {
+    width: 100px; 
+    height: 100px; 
+    background-color: rgb(202,196,196);
+    border-radius: 50%; 
+    transition: background-color 0.3s ease; 
+    transition: transform 0.2s ease;
+  
+  }
+  
+  .circle:hover {
+    background-color: rgb(9,20,38); 
+    transform: scale(1.1); 
+  }
+  
+
