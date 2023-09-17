@@ -4,7 +4,7 @@ function Suport() {
   return (
     <div className='support'>
       <div className='d1'>
-        <div style={{marginRight:'220px'}}>
+        <div style={{marginRight:'382px'}}>
     <h4 className='sup' style={{fontWeight:'bold'}}>We Support</h4>
     <div className='main-circle'>
     <div className='circle'>
