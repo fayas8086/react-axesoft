@@ -18,13 +18,14 @@ function Home() {
           </div>
 
           <div className='icon1 fade-in'>
-            <h6 style={{ fontSize: '18px', color: 'rgb(137,149,165)' }}>
+            <h6 className='tosee' style={{ fontSize: '18px', color: 'rgb(137,149,165)' }}>
               To see our on<br /> going projects
             </h6>
             <p>
               <BsChevronDoubleRight />
             </p>
           </div>
+         
 
           <div className='icon bounce'>
             <p>
@@ -32,7 +33,29 @@ function Home() {
             </p>
           </div>
         </div>
+        <div className='imgdi'>
+          <img className='img2' src='./image/log2.png'/>
+          
+          </div>
+         
       </div>
+      <div style={{
+    width:'100%',
+    height:'10px',
+   
+    backgroundColor:'#E4E4E4',
+   
+   
+}}></div>
+  <div style={{
+    width:'100%',
+    height:'10px',
+   
+    backgroundColor:'black',
+   
+   
+}}></div>
+
     </div>
   );
 }

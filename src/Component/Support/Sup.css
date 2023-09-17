@@ -1,13 +1,15 @@
 .sup{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: xx-large;
+    font-family: 'Libre Baskerville', serif;
 }
 .main-circle{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    
 
 }
 .circle{
@@ -34,5 +36,13 @@
     background-color: rgb(9,20,38); 
     transform: scale(1.1); 
   }
-  
+  .img3{
+    height: 200px;
+    width: 300px;
+    z-index: -1;
+  }
+  .d1{
+    display:flex;
+    margin-left: 32rem;
+  }
 
